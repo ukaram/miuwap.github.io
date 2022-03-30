@@ -1,27 +1,43 @@
 body
 {
     font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+    color: white;
 }
 
 
 h1{
     color:cadetblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:x-large;
+    font-size:50px;
     
 }
 h2{
     color:cadetblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: medium;
+    font-size: 20px;
     
 }
 h3{
     color:cadetblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: small;
+    font-size: 20px;
 }
 .FontBold
 {
     font-weight: bold;
+}
+p
+{
+    font-size: 15px;
+}
+ul{
+    font-size: 15px;
+}
+ol{
+    font-size: 15px;
+}
+.emoji
+{
+    font-size: 20px;
 }
