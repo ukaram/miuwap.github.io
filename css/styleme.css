@@ -1,4 +1,4 @@
-body
+.AboutMe
 {
     font-family: Arial, Helvetica, sans-serif;
     background-color:black;
@@ -32,6 +32,9 @@ p
     font-size: 15px;
 }
 ul{
+    font-size: 15px;
+}
+.mainIndex{
     font-size: 15px;
 }
 ol{
