@@ -1,8 +1,8 @@
 .AboutMe
 {
     font-family: Arial, Helvetica, sans-serif;
-    background-color:black;
-    color: white;
+    background-color:antiquewhite;
+    color: black;
 }
 
 
@@ -30,6 +30,12 @@ h3{
 p
 {
     font-size: 15px;
+    transform: scale(1, -1);
+  
+}
+p::first-letter
+{
+    font-size: 30px;
 }
 ul{
     font-size: 15px;
@@ -44,3 +50,21 @@ ol{
 {
     font-size: 20px;
 }
+.SubInfo
+{
+    list-style-type: none;
+    text-indent: -2.5%;
+    color:yellow;
+}
+.InfoText
+{
+    transform: scale(1, 1);
+
+}
+
+
+
+a:link { color: #FF0000; text-decoration: none}
+a:visited { color: #FF0000; text-decoration: none}
+a:hover { color: #3366CC; text-decoration: underline}
+a:active { color: #000000; text-decoration: none}
