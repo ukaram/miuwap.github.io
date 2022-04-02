@@ -1,0 +1,89 @@
+html, body{
+    margin: 10px;
+    padding: 10px;
+}
+#container{
+    width: 55%;
+    margin: 50px auto;
+    border: 1px solid hwb(16 31% 44%);
+}
+.tab{
+    height: 35px;
+}
+#main-tab{
+    background-color: hsl(310, 100%, 30%);
+    margin-top: 0px;
+    padding-top: 5px;
+}
+#bottom-tab{
+    background-color: #5b5b5b;
+    display: flex;
+}
+.main-tab-item{
+    display: inline;
+    padding-top: 6px;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+#main-tab select{
+    background-color: #A1CBBC;
+    border: none;
+}
+#main-tab p{
+    font-weight: bold;
+}
+.align-left{
+    margin-left: 20px;
+}
+.headline{
+    display: inline-block;
+    text-decoration: underline;
+}
+#lunch{
+    margin-left: 190px;
+    position: relative;
+    top: 20px;
+}
+.align-ui-control{
+    margin-left: 40px;
+}
+.text-field{
+    width: 210px;
+}
+.select-field{
+    width: 218px;
+}
+.asterisk{
+    color: red;
+}
+#ui{
+    display: flex;
+}
+#space-down{
+    margin-bottom: 87px;
+}
+#payment-method{
+    margin-top: 80px;
+}
+#pay-details{
+    margin-top: 93px;
+}
+.ui-text{
+    font-weight: bold;
+}
+#bottom-buttons{
+    display: flex;
+    width: 300px;
+    height: 35px;
+    margin: 0 auto;
+    padding: 4px;
+}
+.buttons-container{
+    margin: 0 20px;
+}
+.button{
+    background-color: #A1CBBC;
+    border: none;
+    width: 100px;
+    height: 28px;
+    color: #FFFFFF;
+}
